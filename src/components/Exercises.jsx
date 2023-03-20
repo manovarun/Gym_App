@@ -30,6 +30,7 @@ const Exercises = ({ exercises, setExercises, bodyPart }) => {
     };
 
     fetchExercisesData();
+    //eslint-disable-next-line
   }, [bodyPart]);
 
   // Pagination
